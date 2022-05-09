@@ -1,0 +1,69 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 600px;
+    background-image: url("http://www.coxinhanerd.com.br/wp-content/uploads/2020/06/542770-scaled.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    font-size: 6rem;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 16px;
+    font-size: 2rem;
+  }
+  
+.input{
+    width: 15rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #060711;
+    color: #fafafa;
+}
+.btn{
+    width: 14rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 7px;
+    background: #0d0f1c;
+    border: none;
+    color: #fafafa;
+}
+.btn:hover {
+    cursor: pointer;
+    background: #060711;
+
+  }
+  
+.resultado {
+    color: #ff0000;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 2rem;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
